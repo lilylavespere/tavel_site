@@ -1,0 +1,123 @@
+body {
+    color: #23043E;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 14px;
+    background-image: url(background_ts.png);
+    background-repeat: repeat;
+    background-size: cover;
+	}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);
+	margin: auto;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(travelsite_header2.png);
+}
+main {
+    width: 768px;
+    height: 3000px;
+    background-color: #FFFFFF;
+}
+footer {
+    background-color: #2D3192;
+    width: 768px;
+    height: 50px;
+}
+.submit_btn {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #9ADAEE;
+    color: #FFFFFF;
+    font-size: medium;
+    
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+    margin-left: 0px;
+}
+aside {
+    width: 142px;
+    height: 1000px;
+    float: left;
+    background-color: #71CCD2;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #12166C;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+p {
+    padding-left: 170px;
+    padding-right: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;	
+}
+h1 {
+    padding-left: 170px;
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #2D3192;
+}
+.hut {
+    float: left;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    width: 100px;
+    float: left;
+    margin-right: 40px;
+    display: block;
+}
+ul {
+    margin: auto;
+    width: 570px;
+    padding-top: 17px;
+    font-size: 17px;
+}
+a:link {
+    color: #9ADAEE;
+	padding: 5px;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+	padding: 5px;
+    color: #2F8ACA;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #9ADAEE;
+	padding: 5px;
+	border-radius: 20px;
+}
+a:active {
+    text-decoration: none;
+	padding: 5px;
+    color: #000000;
+}
